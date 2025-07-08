@@ -153,3 +153,11 @@ document.querySelectorAll(".key").forEach((button) => {
     }
   });
 });
+
+// Ekran genişliğini göster
+function updateScreenWidth() {
+  const screenWidth = window.innerWidth;
+  document.getElementById("screen-width").textContent = `Ekran genişliği: ${screenWidth}px`;
+}
+window.addEventListener("resize", updateScreenWidth);
+updateScreenWidth(); // İlk yüklemede ekran genişliğini göster
