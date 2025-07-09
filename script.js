@@ -3,7 +3,7 @@ let currentTile = 0;
 const wordLength = 5;
 const maxRows = 6;
 
-const targetWord = "SEVGİ";
+const targetWord = "MERAK";
 let isGameOver = false;
 
 // Türkçeye özel büyük harf dönüşümü
@@ -153,11 +153,3 @@ document.querySelectorAll(".key").forEach((button) => {
     }
   });
 });
-
-// Ekran genişliğini göster
-function updateScreenWidth() {
-  const screenWidth = window.innerWidth;
-  document.getElementById("screen-width").textContent = `Ekran genişliği: ${screenWidth}px`;
-}
-window.addEventListener("resize", updateScreenWidth);
-updateScreenWidth(); // İlk yüklemede ekran genişliğini göster
