@@ -3,7 +3,7 @@ let currentTile = 0;
 const wordLength = 5;
 const maxRows = 6;
 
-const targetWord = "MERAK";
+const targetWord = "KUMAR";
 let isGameOver = false;
 
 // Türkçeye özel büyük harf dönüşümü
